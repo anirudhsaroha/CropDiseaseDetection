@@ -7,6 +7,7 @@ import CropPage from "../pages/CropPage";
 import DetailsPage from "../pages/DetailsPage";
 import SigninPage from "../pages/SigninPage";
 import HistoryPage from "../pages/HistoryPage";
+import Chatbox from "../pages/Chatbox";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "home",
         element: <HomePage />
+      },
+      {
+        path: 'chat',
+        element: <Chatbox/>
       },
       {
         path: "sign",

@@ -12,7 +12,7 @@ const IntroPage = () => {
 
   return (
     <div
-  className="h-screen w-screen overflow-hidden"
+  className="h-screen w-screen overflow-hidden pl-5 pr-5"
   style={{
     backgroundImage: 'url(https://images.pexels.com/photos/276245/pexels-photo-276245.jpeg?auto=compress&cs=tinysrgb&w=1200)',
     backgroundSize: 'cover',

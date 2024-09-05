@@ -19,6 +19,11 @@ export const navigation = [
       labelHindi: "इतिहास",
       href: "history",
     },
+    {
+      label: "ChatBot",
+      labelHindi: "चैटबॉट",
+      href: "chat",
+    }
   ];
   
 

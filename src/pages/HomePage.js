@@ -77,7 +77,7 @@ const HomePage = () => {
             <div className="flex justify-center items-center">
               <img
                 src={farmer}
-                className="lg:h-[36rem] md:h-[30rem] h-[28rem]"
+                className="lg:h-[36rem] md:h-[30rem] h-[22rem]"
                 alt="Farmer"
               />
             </div>
