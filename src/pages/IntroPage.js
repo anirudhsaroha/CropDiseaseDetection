@@ -1,5 +1,4 @@
 import React from 'react'
-import Waves from '../components /Waves'
 import '../styles/layout.css'
 import Register from '../components /Register'
 import Login from '../components /Login'
