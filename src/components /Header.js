@@ -16,23 +16,23 @@ const Header = () => {
         <div className="flex items-center">
           <Link
             to="/home"
-            className="font-black lg:text-2xl text-lg flex justify-center items-center rounded-full text-[#000000] mr-5"
+            className="font-black lg:text-2xl text-lg flex justify-center items-center rounded-full text-[#000000] mr-2"
           >
             { language === 'hindi' ? 'एग्रो स्कैन' : 'AGRO SCAN'}
           </Link>
           <div className="flex justify-evenly">
             {navigation.map((nav, index) => {
               return (
-                <div key={index} className="font-semibold text-sm md:text-xl hover:scale-110 lg:text-xl mr-6">
+                <div key={index} className="font-semibold text-sm md:text-xl hover:scale-110 lg:text-xl mr-2">
                   <Link to={`/${nav.href}`}>{ language === 'hindi' ? nav.labelHindi : nav.label}</Link>
                 </div>
               );
             })}
           </div>
         </div>
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center">
           <Link to="/">
-            <img src={user} className="lg:h-14 rounded-full lg:w-14 h-10 w-10" alt="User" />
+            <img src={user} className="lg:h-14 rounded-full lg:w-14 h-8 w-8" alt="User" />
           </Link>
         </div>
       </div>
